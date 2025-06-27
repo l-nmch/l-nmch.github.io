@@ -1,7 +1,7 @@
 baseURL: https://leo.nonnenmacher-logel.fr/
 languageCode: fr
 title: Léo Nonnenmacher
-theme: ["PaperMod"]
+theme: ["PaperMod", "umami-analytics"]
 
 module:
   imports:
