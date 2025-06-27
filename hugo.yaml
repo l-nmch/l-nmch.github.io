@@ -1,0 +1,50 @@
+baseURL: https://leo.nonnenmacher-logel.fr/
+languageCode: fr
+title: Léo Nonnenmacher
+theme: ["PaperMod"]
+
+params:
+  env: production
+  description: "Mon Portfolio - https://github.com/l-nmch/portfolio"
+  author: Léo Nonnenmacher
+
+  defaultTheme: auto
+  ShowReadingTime: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+
+  profileMode:
+    enabled: True
+    title: Léo Nonnenmacher
+    imageUrl: "/pp.jpeg"
+    imageTitle: LinkedIn Profile Picture
+    subtitle: "🚀 Admin. Linux Cloud | 🎓 Formateur | 📦 Négociant en matériel informatique"
+    buttons:
+      - name: Qui suis-je ?
+        url: /about-me
+      - name: Blog
+        url: posts
+
+  socialIcons:
+    - name: github
+      title: My GitHub profile
+      url: "https://github.com/l-nmch"
+    - name: LinkedIn
+      title: My LinkedIn profile
+      url: "https://www.linkedin.com/in/l%C3%A9o-nonnenmacher/"
+
+  assets:
+    disableHLJS: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
