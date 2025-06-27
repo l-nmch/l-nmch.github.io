@@ -12,7 +12,7 @@ J’ai 20 ans, je suis passionné d’IT depuis que j’ai 8 ans, et aujourd’h
 
 - **Formateur IT**, principalement sur Linux, Cloud, DevOps et infrastructure
 - **Négociant en matériel informatique** : j’achète, reconditionne et revends du matériel décommissionné, aussi bien pour les particuliers que pour les pros: [Retake](https://retake.fr)
-- **Administrateur Linux & Cloud** chez [OCI | Cloudéo](https://cloudeo.fr), où je gère fait de la R&D, MCO, et Déploiement d'infrastructure Cloud
+- **Administrateur Linux & Cloud** chez [OCI | Cloudéo](https://cloudeo.fr), où je fait de la R&D, MCO, et Déploiement d'infrastructure Cloud
 
 ### 🛠️ Les outils que je maîtrise
 
