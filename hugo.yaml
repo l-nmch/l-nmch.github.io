@@ -3,6 +3,10 @@ languageCode: fr
 title: Léo Nonnenmacher
 theme: ["PaperMod"]
 
+caches:
+  images:
+    dir: :cacheDir/images
+
 params:
   env: production
   description: "Mon Portfolio - https://github.com/l-nmch/portfolio"
