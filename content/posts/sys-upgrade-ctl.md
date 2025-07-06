@@ -2,7 +2,7 @@
 date: '2025-06-27T23:49:00+02:00'
 title: 'Mettre à jour automatiquement un cluster K3s avec System Upgrade Controller'
 description: "Des mises à jour automatiques pour son cluster K3s ?"
-tags: ["Kubernetes", "k3s", "MCO", "System Upgrade Controller", "Cluster"]
+tags: ["Kubernetes", "k3s", "MCO", "System Upgrade Controller", "DevOps", "Cluster"]
 ---
 
 # Mettre à jour automatiquement un cluster K3s avec System Upgrade Controller

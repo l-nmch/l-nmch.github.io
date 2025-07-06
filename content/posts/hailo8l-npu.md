@@ -124,6 +124,13 @@ Si tu t’attends à faire de l’entraînement directement sur un NPU, tu vas p
 
 ---
 
+## 📎 Liens utiles
+
+- Le repo complet (code + tuto détaillé) : [github.com/l-nmch/hailo-mnist](https://github.com/l-nmch/hailo-mnist)  
+- SDK Hailo : [hailo.ai](https://hailo.ai)  
+- Forum Hailo (très utile !) : [community.hailo.ai](https://community.hailo.ai)
+
+
 ## 🧠 Terminologie
 
 | Terme                  | Définition rapide |
@@ -138,12 +145,6 @@ Si tu t’attends à faire de l’entraînement directement sur un NPU, tu vas p
 | **.hef**               | Format compilé propriétaire utilisé par Hailo pour ses NPU. Généré par le Dataflow Compiler. |
 | **HailoRT**            | Runtime fourni par Hailo pour charger un `.hef` sur le NPU et exécuter les inférences. |
 | **Dataflow Compiler (DFC)** | Outil de Hailo (PC x86_64 only) pour compiler et quantifier les modèles vers le format `.hef`. |
-
-## 📎 Liens utiles
-
-- Le repo complet (code + tuto détaillé) : [github.com/l-nmch/hailo-mnist](https://github.com/l-nmch/hailo-mnist)  
-- SDK Hailo : [hailo.ai](https://hailo.ai)  
-- Forum Hailo (très utile !) : [community.hailo.ai](https://community.hailo.ai)
 
 ---
 
