@@ -5,8 +5,6 @@ description: "How to build an AI setup for next to nothing, and whether it's act
 tags: ["GenAI", "Z440", "NVIDIA", "AI", "GPU", "Inference", "LLM", "Tensorflow", "Docker"]
 ---
 
-# An AI Setup Cheaper Than Mario Kart World?
-
 ---
 
 ## 🔴 Why bother running AI at home?

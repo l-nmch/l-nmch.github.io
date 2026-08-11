@@ -5,8 +5,6 @@ description: "A nightmare of figuring out what an NPU actually is, my hardware a
 tags: ["NPU", "Hailo-8L", "MNIST", "AI", "Raspberry Pi", "Inference"]
 ---
 
-# My First Project With an NPU (Hailo‑8L): From MNIST to Embedded Inference
-
 ---
 
 ## 🎯 Why This Project?

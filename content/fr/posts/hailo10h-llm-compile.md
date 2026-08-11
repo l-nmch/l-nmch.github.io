@@ -5,8 +5,6 @@ description: "Reverse-engineering du Dataflow Compiler et du runtime genai de Ha
 tags: ["NPU", "Hailo-10H", "LLM", "Reverse Engineering", "AI", "Edge AI"]
 ---
 
-# Compiler un LLM sur un Hailo 10H, un shithole sans fond
-
 ---
 
 ## Pourquoi ce projet

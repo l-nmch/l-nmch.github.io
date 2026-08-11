@@ -5,8 +5,6 @@ description: "Comment installer et utiliser external-dns pour créer des entrée
 tags: ["Kubernetes", "Cloudflare", "DNS", "Automatisation", "DevOps"]
 ---
 
-# Automatiser la création d'entrées DNS avec Kubernetes et Cloudflare
-
 ---
 
 ## 🖥️ Pourquoi faire ?

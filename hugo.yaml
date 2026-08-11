@@ -4,6 +4,7 @@ theme: ["PaperMod"]
 
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
+enableRobotsTXT: true
 
 languages:
   fr:
@@ -87,6 +88,8 @@ params:
     title: Léo Nonnenmacher
     imageUrl: "/pp.png"
     imageTitle: LinkedIn Profile Picture
+
+  images: ["/pp.png"]
 
   techStack:
     - name: Kubernetes

@@ -5,8 +5,6 @@ description: "How to install and use external-dns to create DNS records automati
 tags: ["Kubernetes", "Cloudflare", "DNS", "Automation", "DevOps"]
 ---
 
-# Automating DNS Record Creation with Kubernetes and Cloudflare
-
 ---
 
 ## 🖥️ Why bother?

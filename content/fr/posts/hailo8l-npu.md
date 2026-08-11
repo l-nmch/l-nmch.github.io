@@ -5,8 +5,6 @@ description: "Un enfer pour comprendre ce qu'est un NPU, mon setup matériel et 
 tags: ["NPU", "Hailo-8L", "MNIST", "AI", "Raspberry Pi", "Inference"]
 ---
 
-# Mon premier projet avec un NPU (Hailo‑8L) : de MNIST à l’inférence embarquée
-
 ---
 
 ## 🎯 Pourquoi ce projet ?

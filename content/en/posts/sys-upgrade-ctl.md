@@ -5,8 +5,6 @@ description: "Automatic updates for your K3s cluster?"
 tags: ["Kubernetes", "k3s", "Ops", "System Upgrade Controller", "DevOps", "Cluster"]
 ---
 
-# Automatically Updating a K3s Cluster with System Upgrade Controller
-
 ---
 
 ## 🧠 Why automate K3s updates?

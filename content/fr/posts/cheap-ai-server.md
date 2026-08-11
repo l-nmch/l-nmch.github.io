@@ -5,8 +5,6 @@ description: "Comment faire un setup IA pour une bouchée de pain, et est-ce que
 tags: ["GenAI", "Z440", "NVIDIA", "AI", "GPU", "Inference", "LLM", "Tensorflow", "Docker"]
 ---
 
-# Un setup IA moins cher que Mario Kart World ?
-
 ---
 
 ## 🔴 Pourquoi faire de l'IA chez soi ?
