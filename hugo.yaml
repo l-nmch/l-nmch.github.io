@@ -11,16 +11,17 @@ languages:
     contentDir: content/fr
     languageCode: fr
     languageName: "Français"
+    title: "Léo Nonnenmacher | Je fais tourner des trucs qui devraient pas"
     weight: 1
     params:
-      description: "Mon Portfolio - https://github.com/l-nmch/portfolio"
+      description: "IA sur du matos pas fait pour ça, Kubernetes sur des trucs jetés, et du homelab qui n'aurait jamais dû marcher. Tout est documenté, même mes pires idées"
       profileMode:
         subtitle: "Les ordures des uns font les mines d'or des autres — moi, en l'occurrence."
       ctaButtons:
         - name: Articles
           description: Mes inepties.
           url: posts
-        - name: À propos
+        - name: À propos de moi
           description: Le coupable.
           url: about-me
       experience:
@@ -39,16 +40,17 @@ languages:
     contentDir: content/en
     languageCode: en
     languageName: "English"
+    title: "Léo Nonnenmacher | I run stuff that shouldn't work"
     weight: 2
     params:
-      description: "My Portfolio - https://github.com/l-nmch/portfolio"
+      description: "AI on hardware never meant for it, Kubernetes on junk nobody wanted, and a homelab that should never have worked. All documented, even my worst ideas."
       profileMode:
         subtitle: "One man's junk is another man's gold mine — mine, as it happens."
       ctaButtons:
         - name: Posts
           description: My nonsense.
           url: posts
-        - name: About
+        - name: About Me
           description: The culprit.
           url: about-me
       experience:
@@ -83,13 +85,16 @@ params:
   ShowPageNums: true
   ShowToc: true
 
+  label:
+    text: "Léo Nonnenmacher"
+
   profileMode:
     enabled: True
     title: Léo Nonnenmacher
-    imageUrl: "/pp.png"
+    imageUrl: "/img/pp.webp"
     imageTitle: LinkedIn Profile Picture
 
-  images: ["/pp.png"]
+  images: ["/img/pp.webp"]
 
   techStack:
     - name: Kubernetes
