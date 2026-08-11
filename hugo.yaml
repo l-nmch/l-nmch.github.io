@@ -8,8 +8,8 @@ defaultContentLanguageInSubdir: false
 languages:
   fr:
     contentDir: content/fr
-    locale: fr
-    label: "Français"
+    languageCode: fr
+    languageName: "Français"
     weight: 1
     params:
       description: "Mon Portfolio - https://github.com/l-nmch/portfolio"
@@ -34,8 +34,8 @@ languages:
           description: "R&D, MCO et déploiement d'infrastructure Cloud / AI & ML chez [Cloudéo](https://cloudeo.fr)."
   en:
     contentDir: content/en
-    locale: en
-    label: "English"
+    languageCode: en
+    languageName: "English"
     weight: 2
     params:
       description: "My Portfolio - https://github.com/l-nmch/portfolio"
