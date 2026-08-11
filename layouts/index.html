@@ -31,7 +31,7 @@
         {{- range . }}
         <a class="tech-badge" href="{{ trim .url " " }}" target="_blank" rel="noopener noreferrer">
           {{- if .slug }}
-          <img src="https://cdn.simpleicons.org/{{ .slug }}" alt="" loading="lazy" width="20" height="20" />
+          <img src="https://cdn.simpleicons.org/{{ .slug }}" alt="{{ .name }}" loading="lazy" width="20" height="20" />
           {{- else if .emoji }}
           <span class="tech-emoji">{{ .emoji }}</span>
           {{- end }}

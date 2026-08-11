@@ -11,11 +11,12 @@ languages:
     contentDir: content/fr
     languageCode: fr
     languageName: "Français"
-    title: "Léo Nonnenmacher | Je fais tourner des trucs qui devraient pas"
+    title: "Léo Nonnenmacher | Platform Engineer & MLOps / Formateur / Entrepreneur"
     weight: 1
     params:
       description: "IA sur du matos pas fait pour ça, Kubernetes sur des trucs jetés, et du homelab qui n'aurait jamais dû marcher. Tout est documenté, même mes pires idées"
       profileMode:
+        title: "Léo Nonnenmacher | Platform Engineer & MLOps / Formateur / Entrepreneur"
         subtitle: "Les ordures des uns font les mines d'or des autres — moi, en l'occurrence."
       ctaButtons:
         - name: Articles
@@ -40,11 +41,12 @@ languages:
     contentDir: content/en
     languageCode: en
     languageName: "English"
-    title: "Léo Nonnenmacher | I run stuff that shouldn't work"
+    title: "Léo Nonnenmacher | Platform Engineer & MLOps / Trainer / Entrepreneur"
     weight: 2
     params:
       description: "AI on hardware never meant for it, Kubernetes on junk nobody wanted, and a homelab that should never have worked. All documented, even my worst ideas."
       profileMode:
+        title: "Léo Nonnenmacher | Platform Engineer & MLOps / Trainer / Entrepreneur"
         subtitle: "One man's junk is another man's gold mine — mine, as it happens."
       ctaButtons:
         - name: Posts
@@ -84,6 +86,7 @@ params:
   ShowAllPagesInArchive: true
   ShowPageNums: true
   ShowToc: true
+  ShowShareButtons: true
 
   label:
     text: "Léo Nonnenmacher"
