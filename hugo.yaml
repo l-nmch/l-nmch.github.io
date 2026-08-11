@@ -32,6 +32,8 @@ languages:
         - icon: "☁️"
           title: Platform Engineer / MLOps
           description: "R&D, MCO et déploiement d'infrastructure Cloud / AI & ML chez [Cloudéo](https://cloudeo.fr)."
+      footer:
+        text: "[Mentions légales](/mentions-legales/) · [Confidentialité](/politique-de-confidentialite/)"
   en:
     contentDir: content/en
     languageCode: en
@@ -58,6 +60,8 @@ languages:
         - icon: "☁️"
           title: Platform Engineer / MLOps
           description: "R&D, maintenance, and deployment of Cloud / AI & ML infrastructure at [Cloudéo](https://cloudeo.fr)."
+      footer:
+        text: "[Legal notice](/en/mentions-legales/) · [Privacy](/en/politique-de-confidentialite/)"
 
 caches:
   images:
