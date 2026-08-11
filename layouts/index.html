@@ -9,7 +9,7 @@
   <div class="highlights-grid">
     {{- with site.Params.experience }}
     <div class="highlights-col">
-      <h2 class="home-section-title">Activités actuelles</h2>
+      <h2 class="home-section-title">{{ i18n "currentActivities" }}</h2>
       <ul class="experience-list">
         {{- range . }}
         <li class="experience-item">
@@ -26,7 +26,7 @@
 
     {{- with site.Params.techStack }}
     <div class="highlights-col">
-      <h2 class="home-section-title">Stack technique</h2>
+      <h2 class="home-section-title">{{ i18n "techStackSection" }}</h2>
       <div class="techstack-grid">
         {{- range . }}
         <a class="tech-badge" href="{{ trim .url " " }}" target="_blank" rel="noopener noreferrer">
