@@ -28,12 +28,91 @@ params:
     title: Léo Nonnenmacher
     imageUrl: "/pp.png"
     imageTitle: LinkedIn Profile Picture
-    subtitle: "🚀 Admin. Linux Cloud | 🎓 Formateur | 📦 Négociant en matériel informatique"
-    buttons:
-      - name: Qui suis-je ?
-        url: /about-me
-      - name: Blog
-        url: posts
+    subtitle: "Les ordures des uns font les mines d'or des autres — moi, en l'occurrence."
+
+  ctaButtons:
+    - name: Articles
+      description: Mes inepties.
+      url: posts
+    - name: À propos
+      description: Le coupable.
+      url: /about-me
+
+  techStack:
+    - name: Kubernetes
+      slug: kubernetes
+      url: https://kubernetes.io
+    - name: Terraform
+      slug: terraform
+      url: https://www.terraform.io
+    - name: Ansible
+      slug: ansible
+      url: https://www.ansible.com
+    - name: Incus / LXD
+      slug: linuxcontainers
+      url: https://linuxcontainers.org/incus/
+    - name: OpenStack
+      slug: openstack
+      url: https://www.openstack.org
+    - name: Mikrotik
+      slug: mikrotik
+      url: https://mikrotik.com
+    - name: FluxCD
+      slug: flux
+      url: https://fluxcd.io
+    - name: Envoy
+      slug: envoyproxy
+      url: https://www.envoyproxy.io
+    - name: Docker
+      slug: docker
+      url: https://www.docker.com
+    - name: TensorFlow
+      slug: tensorflow
+      url: https://www.tensorflow.org
+    - name: PyTorch
+      slug: pytorch
+      url: https://pytorch.org
+    - name: Hugging Face
+      slug: huggingface
+      url: https://huggingface.co
+    - name: ONNX
+      slug: onnx
+      url: https://onnx.ai
+    - name: NVIDIA
+      slug: nvidia
+      url: https://www.nvidia.com
+    - name: ROCm
+      slug: amd
+      url: https://rocm.docs.amd.com
+    - name: Unsloth
+      emoji: "🦥"
+      url: https://unsloth.ai
+    - name: vLLM
+      slug: vllm
+      url: https://vllm.ai
+    - name: llama.cpp
+      emoji: "🦙"
+      url: https://github.com/ggml-org/llama.cpp
+    - name: SGLang
+      emoji: "⚡"
+      url: https://docs.sglang.ai
+    - name: Ray
+      slug: ray
+      url: https://www.ray.io
+    - name: Jupyter
+      slug: jupyter
+      url: https://jupyter.org
+
+  experience:
+    - icon: "🎓"
+      title: Formateur indépendant
+      description: "Formations Linux, Cloud, DevOps et infrastructure, en école comme en entreprise."
+    - icon: "📦"
+      title: Négociant en matériel informatique
+      description: "Achat, reconditionnement et revente de matériel décommissionné chez [Retake](https://retake.fr)."
+    - icon: "☁️"
+      title: Platform Engineer / MLOps
+      description: "R&D, MCO et déploiement d'infrastructure Cloud / AI & ML chez [Cloudéo](https://cloudeo.fr)."
 
   socialIcons:
     - name: github

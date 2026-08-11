@@ -1,0 +1,61 @@
+{{- define "main" }}
+
+{{- if site.Params.profileMode.enabled }}
+{{- partial "index_profile.html" . }}
+{{- end }}
+
+{{- if (or site.Params.experience site.Params.techStack) }}
+<section class="home-section highlights-section">
+  <div class="highlights-grid">
+    {{- with site.Params.experience }}
+    <div class="highlights-col">
+      <h2 class="home-section-title">Activités actuelles</h2>
+      <ul class="experience-list">
+        {{- range . }}
+        <li class="experience-item">
+          <span class="experience-icon">{{ .icon }}</span>
+          <div>
+            <h3>{{ .title }}</h3>
+            <p>{{ .description | markdownify }}</p>
+          </div>
+        </li>
+        {{- end }}
+      </ul>
+    </div>
+    {{- end }}
+
+    {{- with site.Params.techStack }}
+    <div class="highlights-col">
+      <h2 class="home-section-title">Stack technique</h2>
+      <div class="techstack-grid">
+        {{- range . }}
+        <a class="tech-badge" href="{{ trim .url " " }}" target="_blank" rel="noopener noreferrer">
+          {{- if .slug }}
+          <img src="https://cdn.simpleicons.org/{{ .slug }}" alt="" loading="lazy" width="20" height="20" />
+          {{- else if .emoji }}
+          <span class="tech-emoji">{{ .emoji }}</span>
+          {{- end }}
+          <span>{{ .name }}</span>
+        </a>
+        {{- end }}
+      </div>
+    </div>
+    {{- end }}
+  </div>
+</section>
+{{- end }}
+
+{{- with site.Params.ctaButtons }}
+<section class="home-section cta-section">
+  <div class="cta-grid">
+    {{- range . }}
+    <a class="cta-card" href="{{ trim .url " " }}">
+      <span class="cta-card-title">{{ .name }}</span>
+      {{- with .description }}<span class="cta-card-desc">{{ . }}</span>{{- end }}
+    </a>
+    {{- end }}
+  </div>
+</section>
+{{- end }}
+
+{{- end }}{{/* end main */}}
