@@ -144,3 +144,15 @@ a.tech-badge:hover {
     font-size: 13px;
     color: var(--secondary);
 }
+
+/* Mermaid diagrams: center the rendered SVG instead of the default left-align */
+
+.post-content pre.mermaid {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+}
+
+.post-content pre.mermaid svg {
+    max-width: 100%;
+}
